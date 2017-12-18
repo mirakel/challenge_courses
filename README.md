@@ -35,4 +35,5 @@ $ ./manage.py runserver
 ```
 
 resultado
-![alt text](https://www.dropbox.com/s/e231vy2n8c4zb7f/resultado_carrito.png)
+![a](https://www.dropbox.com/s/e231vy2n8c4zb7f/resultado_carrito.png)
+[Enlace a image](https://www.dropbox.com/s/e231vy2n8c4zb7f/resultado_carrito.png)
