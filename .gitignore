@@ -1,20 +1,5 @@
-
-#GitIgnore de todas las migraciones
-aplicaciones/usuarios/migrations/*
-aplicaciones/eventos/migrations/*
-aplicaciones/evaluaciones/migrations/*
-aplicaciones/cursos/migrations/*
-aplicaciones/clases/migrations/*
-aplicaciones/notificaciones/migrations/*
-aplicaciones/busquedas/migrations/*
-aplicaciones/emprendedores/migrations/*
-aplicaciones/recursos/migrations/*
-
-media/*
 #gitIgnore de Setting.py
-startuphero/settings/*
-public/*
-startuphero/__pycache__/*
+carrito_compra/__pycache__/*
 local_settings.py
 
 # File types #
