@@ -3,7 +3,12 @@ Aplicación de Carrito de compra para Cursos, en pytho 3
 
 ## Ejecutar
 
-Para ejecutar el proyecto debe de tener instalado Python3 y pip, y sigas las instrucciones:
+Para ejecutar el proyecto debe de tener instalado VirtualWrapper, Python3 y pip3, y sigas las instrucciones:
+Nota: si esta trabajando con Virtualenv, puede ejecutar por ejemplo: virtualenv -p python3 env_django1.11.7
+
+```
+$ mkvirtualenv -p python3 env_django1.11.7
+```
 
 ```
 $ git clone https://github.com/alejandrohdo/carrito_compra.git
