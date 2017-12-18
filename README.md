@@ -3,10 +3,10 @@ Aplicación de Carrito de compra para Cursos, en pytho 3
 
 ## Ejecutar
 
-If you are using seajs, you can install it with:
+Para ejecutar el proyecto debe de tener instalado Python3 y pip, y sigas las instrucciones:
 
 ```
-$ https://github.com/alejandrohdo/carrito_compra.git
+$ git clone https://github.com/alejandrohdo/carrito_compra.git
 ```
 
 ```
@@ -33,3 +33,6 @@ $ ./manage.py createsuperuser
 ```
 $ ./manage.py runserver
 ```
+
+resultado
+![alt text](carrito_compra/static/img/resultado_carrito.png)
