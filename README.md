@@ -35,4 +35,4 @@ $ ./manage.py runserver
 ```
 
 resultado
-![alt text](/carrito_compra/static/img/resultado_carrito.png)
+![alt text](https://www.dropbox.com/s/e231vy2n8c4zb7f/resultado_carrito.png)
