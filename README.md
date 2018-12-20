@@ -1,5 +1,5 @@
 # carrito_compra
-Aplicación de Carrito de compra para Cursos, en pytho 3
+Aplicación de Carrito de compra para Cursos en python3
 
 ## Ejecutar
 
