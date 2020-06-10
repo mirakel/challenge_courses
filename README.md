@@ -1,6 +1,5 @@
-# carrito_compra
-Aplicación de Carrito de compra para Cursos en python3
-
+# Aplicacion de cursos
+Aplicación de cursos con carrito de compras en django
 ## Ejecutar
 
 Para ejecutar el proyecto debe de tener instalado VirtualWrapper, Python3 y pip3, y sigas las instrucciones:
