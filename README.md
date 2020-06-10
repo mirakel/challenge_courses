@@ -1,5 +1,5 @@
 # carrito_compra
-AplicaciÃ³n de Carrito de compra para Cursos en python3
+Aplicación de Carrito de compra para Cursos en python3
 
 ## Ejecutar
 
@@ -11,7 +11,7 @@ $ mkvirtualenv -p python3 env_django1.11.7
 ```
 
 ```
-$ git clone https://github.com/alejandrohdo/carrito_compra.git
+$ git clone https://herostartup@bitbucket.org/herostartup/reto-curso.git
 ```
 
 ```
