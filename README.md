@@ -1,17 +1,17 @@
-# carrito_compra
-Aplicación de Carrito de compra para Cursos en python3
-
+# Aplicacion de cursos
+Aplicaciï¿½n de cursos con carrito de compras en django
 ## Ejecutar
 
 Para ejecutar el proyecto debe de tener instalado VirtualWrapper, Python3 y pip3, y sigas las instrucciones:
 Nota: si esta trabajando con Virtualenv, puede ejecutar por ejemplo: virtualenv -p python3 env_django1.11.7
 
+
 ```
-$ mkvirtualenv -p python3 env_django1.11.7
+$ git clone git@github.com:mirakel/challenge_courses.git
 ```
 
 ```
-$ git clone https://herostartup@bitbucket.org/herostartup/reto-curso.git
+$ python3 -m venv venv
 ```
 
 ```
@@ -23,22 +23,18 @@ $ pip install -r requirements.txt
 ```
 
 ```
-$ ./manage.py makemigrations
+$ python manage.py makemigrations
 ```
 
 
 ```
-$ ./manage.py migrate
+$ python manage.py migrate
 ```
 
 ```
-$ ./manage.py createsuperuser
+$ python manage.py createsuperuser
 ```
 
 ```
-$ ./manage.py runserver
+$ python manage.py runserver
 ```
-
-resultado
-![a](https://www.dropbox.com/s/e231vy2n8c4zb7f/resultado_carrito.png)
-[Enlace a image](https://www.dropbox.com/s/e231vy2n8c4zb7f/resultado_carrito.png)

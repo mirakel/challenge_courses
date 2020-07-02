@@ -39,8 +39,7 @@ def has_cursos_carrito(user):
 def has_cantidad_cursos_carrito(user):
     try:
         # Cantidad de cursos
-        curso = get_object_or_404(Carrito_compra, usuario=user)
-        cantidad = curso.cursos.all().count()
+        cantidad = Carrito_compra.objects.filter(usuario_id=user.id).count()
         return cantidad
     except Exception as e:
         raise e

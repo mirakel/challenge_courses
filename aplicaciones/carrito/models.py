@@ -6,7 +6,7 @@ from aplicaciones.cursos.models import Curso
 
 class Carrito_compra(models.Model):
     """docstring for Carrito"""
-    usuario = models.OneToOneField(Usuario, primary_key=True)
+    usuario = models.OneToOneField(Usuario, on_delete=models.CASCADE, primary_key=True)
     cursos = models.ManyToManyField(Curso, blank=True)
     fecha_compra = models.DateTimeField(auto_now=True)  
     estado = models.BooleanField(default=True)

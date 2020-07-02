@@ -1,5 +1,5 @@
 #gitIgnore de Setting.py
-carrito_compra/__pycache__/*
+__pycache__/*
 local_settings.py
 
 # File types #
@@ -26,3 +26,4 @@ Thumbs.db
 *~HASLLAs
 ,9   					
 
+venv/

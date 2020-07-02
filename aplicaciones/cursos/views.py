@@ -10,8 +10,8 @@ class Curso(TemplateView):
 class Index_principal(TemplateView):
     template_name = 'index.html'
 
-    def get_context_data(self, **kwargs):
-        context = super(Index_principal,
-                        self).get_context_data(**kwargs)
-        context['cursos'] = mis_cursos.objects.filter(estado=True)
-        return context
+    # def get_context_data(self, **kwargs):
+    #     context = super(Index_principal,
+    #                     self).get_context_data(**kwargs)
+    #     context['cursos'] = mis_cursos.objects.filter(estado=True)
+    #     return context
