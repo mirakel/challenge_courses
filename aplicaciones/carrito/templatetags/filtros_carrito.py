@@ -51,4 +51,5 @@ def has_costo_total(user):
         total = sum([p.costo for p in curso.cursos.all()])
         return total
     except Exception as e:
-        raise e
+        print("No hay cursos!!")
+        return 0
