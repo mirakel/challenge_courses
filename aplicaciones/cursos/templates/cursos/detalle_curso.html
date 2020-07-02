@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %} Hero Startup | Cursos{% endblock title %}
+
+
+{% block contenido %}
+<div class="container mt-4">
+    <div class="course">
+        <h3>{{ curso.nombre }}</h3>
+        <img src="{{curso.portada.url }}" class="card-img-top" alt="curso">
+
+        <div class="content-course mt-4">
+            <h2>Acerca del curso</h2>
+            <p>
+                {{ curso.resumen }}
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock contenido %}
