@@ -1,4 +1,5 @@
 from django.db import models
+from aplicaciones.usuarios.models import Usuario
 from django.template.defaultfilters import slugify
 # Create your models here.
 class Categoria(models.Model):
@@ -30,6 +31,8 @@ class Curso(models.Model):
     costo = models.DecimalField(max_digits=5, decimal_places=2, default=0.00)
     descuento = models.DecimalField(
         max_digits=5, decimal_places=2, default=0.00)
+    sobre_curso = models.TextField(max_length=2000, null=True)
+    autores = models.ManyToManyField(Usuario, blank=True)
 
     def __str__(self):
         return self.nombre
