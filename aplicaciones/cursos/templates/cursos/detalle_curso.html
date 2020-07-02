@@ -8,10 +8,20 @@
         <h3>{{ curso.nombre }}</h3>
         <img src="{{curso.portada.url }}" class="card-img-top" alt="curso">
 
+        <div class="information">
+            <h3>Información</h3>
+            <ul>
+                <li>Duración: {{ curso.duracion }}</li>
+                <li>Estado: {% if curso.estado %} Disponible {% else %} No disponible {% endif %}</li>
+                <li>Es Gratis: {% if curso.es_gratis %} Gratis {% else %} No es gratis {% endif %}</li>
+                <li>Precio S/.: {{ curso.costo }}</li>
+            </ul>
+        </div>
+
         <div class="content-course mt-4">
-            <h2>Acerca del curso</h2>
+            <h3>Acerca del curso</h3>
             <p>
-                {{ curso.resumen }}
+                {{ curso.sobre_curso }}
             </p>
         </div>
     </div>
