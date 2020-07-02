@@ -1,5 +1,5 @@
 # Aplicacion de cursos
-Aplicaci�n de cursos con carrito de compras en django
+Aplicación de cursos con carrito de compras en django
 
 ## Ejecutar
 
