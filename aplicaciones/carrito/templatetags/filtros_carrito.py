@@ -12,7 +12,7 @@ def has_agrego_curso(curso):
     try:
         # con middleware capturamos al usaurio
         mi_usuario = get_username()
-        if curso is None or not mi_usuario.user.is_authenticated():
+        if curso is None or not mi_usuario.user.is_authenticated:
             return False
         else:
             mi_curso = get_object_or_404(Curso, nombre=curso)

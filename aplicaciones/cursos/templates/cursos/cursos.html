@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Curso</title>
-</head>
-<body>
-	<p>Cursos, Carrito de compra</p>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title %} Hero Startup | Cursos{% endblock title %}
+
+
+{% block contenido %}
+
+<div class="container mt-4 courses">
+	<h3>Cursos online recomendados por la comunidad</h3>
+
+	<div class="row row-cols-1 row-cols-md-3">
+		{% for curso in cursos  %}
+		<div class="col mb-4">
+			<div class="card">
+				<img src="{{curso.portada.url }}" class="card-img-top" alt="curso">
+				<div class="card-body">
+					<h5 class="card-title">{{curso.nombre}}</h5>
+					<p class="card-text">{{ curso.resumen}}</p>
+					<p>
+						<button type="button" class="btn btn-primary">Ver detalle</button>
+						<a href=" {% url 'app_carrito:p_agregar_compra' curso.slug %} " class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar al Carrito</a>  
+					</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %} 
+	</div>
+</div>
+
+{% endblock contenido %}
